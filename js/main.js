@@ -73,7 +73,7 @@ function initMobileMenu() {
 
 /* ═══════════ FADE-IN ANIMATIONS ═══════════ */
 function initFadeAnimations() {
-  const elements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right');
+  const elements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .fade-in-up, .fade-in-zoom');
   if (!elements.length) return;
 
   const observer = new IntersectionObserver(

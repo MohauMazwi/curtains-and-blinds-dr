@@ -47,11 +47,15 @@ a:hover {
   color: var(--accent);
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
   font-size: inherit;
   border: none;
@@ -65,7 +69,12 @@ button {
 }
 
 /* ── Typography ── */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
   font-weight: 400;
   line-height: 1.2;
@@ -147,7 +156,7 @@ p {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity var(--duration-slow) var(--ease-out),
-              transform var(--duration-slow) var(--ease-out);
+    transform var(--duration-slow) var(--ease-out);
 }
 
 .fade-in.visible {
@@ -159,7 +168,7 @@ p {
   opacity: 0;
   transform: translateX(-30px);
   transition: opacity var(--duration-slow) var(--ease-out),
-              transform var(--duration-slow) var(--ease-out);
+    transform var(--duration-slow) var(--ease-out);
 }
 
 .fade-in-left.visible {
@@ -171,7 +180,7 @@ p {
   opacity: 0;
   transform: translateX(30px);
   transition: opacity var(--duration-slow) var(--ease-out),
-              transform var(--duration-slow) var(--ease-out);
+    transform var(--duration-slow) var(--ease-out);
 }
 
 .fade-in-right.visible {
@@ -179,14 +188,40 @@ p {
   transform: translateX(0);
 }
 
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity var(--duration-slow) var(--ease-out),
+    transform var(--duration-slow) var(--ease-out);
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-zoom {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity var(--duration-slow) var(--ease-out),
+    transform var(--duration-slow) var(--ease-out);
+}
+
+.fade-in-zoom.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
 /* ── Responsive Typography ── */
 @media (max-width: 768px) {
   h1 {
     font-size: var(--text-3xl);
   }
+
   h2 {
     font-size: var(--text-2xl);
   }
+
   h3 {
     font-size: var(--text-xl);
   }
