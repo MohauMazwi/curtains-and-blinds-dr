@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivory Sheer Linen Curtain — Curtains & Blinds Dr</title>
+    <meta name="description"
+        content="The Ivory Sheer Linen Curtain features premium European linen that filters natural light beautifully. Custom-made to your measurements.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+
+    <!-- ═══════════ HEADER ═══════════ -->
+    <header class="header scrolled" id="main-header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">Curtains & Blinds Dr</a>
+            <nav class="header__nav" id="main-nav">
+                <a href="collection.html">Collections</a>
+                <a href="collection.html?cat=curtains">Curtains</a>
+                <a href="collection.html?cat=blinds">Blinds</a>
+                <a href="#">Consultation</a>
+                <a href="#">About</a>
+            </nav>
+            <div class="header__actions">
+                <a href="#" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </a>
+                <a href="#" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                </a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════ MOBILE MENU ═══════════ -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="collection.html">Collections</a>
+        <a href="collection.html?cat=curtains">Curtains</a>
+        <a href="collection.html?cat=blinds">Blinds</a>
+        <a href="#">Consultation</a>
+        <a href="#">About</a>
+    </div>
+
+    <main>
+        <!-- ═══════════ PRODUCT LAYOUT ═══════════ -->
+        <div class="container">
+            <div class="product-layout">
+
+                <!-- ── Gallery ── -->
+                <div class="product-gallery" id="product-gallery">
+                    <div class="product-gallery__main">
+                        <img id="main-image" src="images/product_main_1772548478211.png"
+                            alt="Ivory Sheer Linen Curtain">
+                    </div>
+                    <div class="product-gallery__thumbs">
+                        <button class="product-gallery__thumb active" data-img="images/product_main_1772548478211.png">
+                            <img src="images/product_main_1772548478211.png" alt="Main view">
+                        </button>
+                        <button class="product-gallery__thumb" data-img="images/product_detail_1772548636083.png">
+                            <img src="images/product_detail_1772548636083.png" alt="Fabric detail">
+                        </button>
+                        <button class="product-gallery__thumb" data-img="images/product_lifestyle_1772548743139.png">
+                            <img src="images/product_lifestyle_1772548743139.png" alt="Lifestyle view">
+                        </button>
+                        <button class="product-gallery__thumb" data-img="images/cat_sheer_curtains_1772547416849.png">
+                            <img src="images/cat_sheer_curtains_1772547416849.png" alt="Room setting">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ── Product Info ── -->
+                <div class="product-info">
+                    <div class="product-info__breadcrumb">
+                        <a href="index.html">Home</a>
+                        <span>/</span>
+                        <a href="collection.html">Collections</a>
+                        <span>/</span>
+                        <a href="collection.html?cat=sheer">Sheer Curtains</a>
+                    </div>
+
+                    <h1 class="product-info__title">Ivory Sheer Linen Curtain</h1>
+                    <p class="product-info__subtitle">Premium European linen that filters natural light beautifully
+                        while maintaining privacy.</p>
+
+                    <div class="product-info__price">R1,499</div>
+                    <p class="product-info__price-note">Per panel · Custom made to your measurements</p>
+
+                    <div class="product-info__divider"></div>
+
+                    <!-- Fabric Swatch -->
+                    <div class="option-group">
+                        <div class="option-group__label">
+                            <span>Fabric: <strong id="swatch-label">Ivory</strong></span>
+                            <a href="#">View all fabrics</a>
+                        </div>
+                        <div class="swatch-selector">
+                            <div class="swatch-selector__options">
+                                <button class="swatch active" style="background-color: #F5F0E8;" data-name="Ivory"
+                                    title="Ivory"></button>
+                                <button class="swatch" style="background-color: #E8DFD2;" data-name="Sand"
+                                    title="Sand"></button>
+                                <button class="swatch" style="background-color: #D4C9B8;" data-name="Oatmeal"
+                                    title="Oatmeal"></button>
+                                <button class="swatch" style="background-color: #FFFFFF;" data-name="Pure White"
+                                    title="Pure White"></button>
+                                <button class="swatch" style="background-color: #C9C0B5;" data-name="Stone"
+                                    title="Stone"></button>
+                                <button class="swatch" style="background-color: #B5A899;" data-name="Warm Taupe"
+                                    title="Warm Taupe"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Length Selector -->
+                    <div class="option-group">
+                        <div class="option-group__label">
+                            <span>Length</span>
+                            <a href="#">Measuring guide</a>
+                        </div>
+                        <div class="select-wrapper">
+                            <select id="length-select" aria-label="Select length">
+                                <option value="">Select your length</option>
+                                <option value="183">183 cm (Standard)</option>
+                                <option value="213">213 cm</option>
+                                <option value="228">228 cm</option>
+                                <option value="244">244 cm (Floor length)</option>
+                                <option value="274">274 cm (Puddling)</option>
+                                <option value="custom">Custom measurement</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Lining Selector -->
+                    <div class="option-group">
+                        <div class="option-group__label">
+                            <span>Lining</span>
+                        </div>
+                        <div class="select-wrapper">
+                            <select id="lining-select" aria-label="Select lining">
+                                <option value="unlined">Unlined (Sheer)</option>
+                                <option value="light">Light Privacy Lining (+R299)</option>
+                                <option value="thermal">Thermal Lining (+R449)</option>
+                                <option value="blackout">Blackout Lining (+R599)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="product-info__divider"></div>
+
+                    <!-- Actions -->
+                    <div class="product-actions" id="product-actions">
+                        <button class="btn btn--primary btn--lg btn--full" id="add-to-cart">Add to Cart —
+                            R1,499</button>
+                        <a href="#" class="btn btn--secondary btn--full">Book Free Consultation</a>
+                    </div>
+
+                    <div class="product-info__divider"></div>
+
+                    <!-- Accordion Details -->
+                    <div class="accordion" id="product-accordion">
+                        <div class="accordion__item">
+                            <button class="accordion__trigger" aria-expanded="false">
+                                <span>Fabric Details</span>
+                                <span class="accordion__icon">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <div class="accordion__body">
+                                    <p>Our Ivory Sheer Linen is woven from 100% European flax linen using traditional
+                                        methods. The natural, unbleached fibers create a soft, organic glow when backlit
+                                        by sunlight. Each panel features a delicate drape with a gentle crinkle texture
+                                        that adds depth and character to any space.</p>
+                                    <p style="margin-top: 0.75rem;"><strong>Composition:</strong> 100% European
+                                        Linen<br><strong>Weight:</strong> 120 gsm<br><strong>Width:</strong> 150 cm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__trigger" aria-expanded="false">
+                                <span>Light Control</span>
+                                <span class="accordion__icon">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <div class="accordion__body">
+                                    <p>This sheer fabric allows approximately 70% of natural light to pass through,
+                                        creating a warm, diffused glow in your room. It provides daytime privacy while
+                                        maintaining an open, airy feel. For enhanced privacy or light control, consider
+                                        adding a privacy or blackout lining.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__trigger" aria-expanded="false">
+                                <span>Care Instructions</span>
+                                <span class="accordion__icon">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <div class="accordion__body">
+                                    <p>Dry clean recommended for best results. If machine washing, use a gentle cycle at
+                                        30°C with a mesh laundry bag. Hang to dry — do not tumble dry. Iron on low heat
+                                        while slightly damp for best results. Steam cleaning is also suitable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__trigger" aria-expanded="false">
+                                <span>Installation</span>
+                                <span class="accordion__icon">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <div class="accordion__body">
+                                    <p>Professional installation is available for R799 per window. Our skilled
+                                        installers
+                                        will fit your curtains with precision, ensuring a perfect hang. Installation
+                                        includes all necessary hardware. Alternatively, each curtain comes with a
+                                        standard 7.5 cm heading tape for easy self-installation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__trigger" aria-expanded="false">
+                                <span>Delivery</span>
+                                <span class="accordion__icon">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <div class="accordion__body">
+                                    <p>Custom-made curtains are delivered within 10–14 working days. Standard delivery
+                                        is free for orders over R2,500. Express production is available for an
+                                        additional
+                                        R499, reducing the lead time to 5–7 working days. Fabric samples can be ordered
+                                        free of charge.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══════════ LIFESTYLE IMAGE ═══════════ -->
+        <section class="product-lifestyle">
+            <div class="container">
+                <div class="product-lifestyle__image fade-in">
+                    <img src="images/product_lifestyle_1772548743139.png"
+                        alt="Ivory Sheer Linen Curtain in a bright modern bedroom" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════ TRUST STRIP ═══════════ -->
+        <section class="section--sm">
+            <div class="container">
+                <div class="trust-strip fade-in">
+                    <div class="trust-item">
+                        <span class="trust-item__icon">✦</span>
+                        <span class="trust-item__text">Free Samples</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item__icon">✦</span>
+                        <span class="trust-item__text">Custom Made</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item__icon">✦</span>
+                        <span class="trust-item__text">Free Delivery 150+</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item__icon">✦</span>
+                        <span class="trust-item__text">Expert Installation</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item__icon">✦</span>
+                        <span class="trust-item__text">5 Year Warranty</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ═══════════ STICKY ADD TO CART ═══════════ -->
+    <div class="sticky-cart" id="sticky-cart">
+        <div class="container">
+            <div class="sticky-cart__inner">
+                <div class="sticky-cart__info">
+                    <span class="sticky-cart__title">Ivory Sheer Linen Curtain</span>
+                    <span class="sticky-cart__price">R1,499</span>
+                </div>
+                <button class="btn btn--primary">Add to Cart — R1,499</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <div class="footer__brand">
+                        Curtains & Blinds Dr
+                        <span class="footer__brand-sub">Bespoke Window Treatments</span>
+                    </div>
+                    <p class="footer__desc">Luxury custom curtains and blinds tailored to your home.</p>
+                </div>
+                <div>
+                    <h5 class="footer__heading">Shop</h5>
+                    <nav class="footer__links">
+                        <a href="collection.html">All Collections</a>
+                        <a href="collection.html?cat=sheer">Sheer Curtains</a>
+                        <a href="collection.html?cat=blackout">Blackout Curtains</a>
+                        <a href="collection.html?cat=roman">Roman Blinds</a>
+                    </nav>
+                </div>
+                <div>
+                    <h5 class="footer__heading">Company</h5>
+                    <nav class="footer__links">
+                        <a href="#">Our Story</a>
+                        <a href="#">Consultation</a>
+                        <a href="#">Reviews</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+                <div>
+                    <h5 class="footer__heading">Support</h5>
+                    <nav class="footer__links">
+                        <a href="#">FAQs</a>
+                        <a href="#">Delivery Info</a>
+                        <a href="#">Returns</a>
+                        <a href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>&copy; 2026 Curtains & Blinds Dr. All rights reserved.</span>
+                <div class="footer__social">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Pinterest">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M8 12a4 4 0 1 1 8 0c0 4-3 6-3 6" />
+                            <line x1="12" y1="12" x2="12" y2="21" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

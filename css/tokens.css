@@ -1,0 +1,74 @@
+/* ══════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Curtains & Blinds Dr
+   ══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Colors ── */
+  --bg-primary: #F6F3EE;
+  --bg-section: #EDE7DE;
+  --bg-white: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #5A5A5A;
+  --text-light: #8A8A8A;
+  --accent: #8F7D6A;
+  --accent-hover: #7A6B5A;
+  --accent-light: rgba(143, 125, 106, 0.12);
+  --border: #D9D2C9;
+  --border-light: #E8E2DA;
+  --overlay: rgba(26, 26, 26, 0.35);
+  --overlay-dark: rgba(26, 26, 26, 0.55);
+
+  /* ── Typography ── */
+  --font-serif: 'Playfair Display', 'Georgia', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+
+  /* ── Type Scale ── */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 2rem;        /* 32px */
+  --text-4xl: 2.5rem;      /* 40px */
+  --text-5xl: 3.25rem;     /* 52px */
+  --text-6xl: 4rem;        /* 64px */
+
+  /* ── Spacing ── */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* ── Layout ── */
+  --container-max: 1280px;
+  --container-narrow: 960px;
+  --container-wide: 1440px;
+  --header-height: 72px;
+
+  /* ── Borders & Shadows ── */
+  --radius: 6px;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --radius-full: 50%;
+  --shadow-subtle: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --shadow-elevated: 0 8px 40px rgba(0, 0, 0, 0.08);
+
+  /* ── Transitions ── */
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --duration-fast: 200ms;
+  --duration-base: 350ms;
+  --duration-slow: 600ms;
+
+  /* ── Z-Index ── */
+  --z-header: 100;
+  --z-overlay: 200;
+  --z-modal: 300;
+  --z-sticky: 50;
+}

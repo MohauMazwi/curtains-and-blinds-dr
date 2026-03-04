@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curtains & Blinds Dr — Custom Curtains & Blinds, Tailored to Your Space</title>
+  <meta name="description"
+    content="Luxury custom curtains and blinds tailored to your home. Book a free in-home consultation with Curtains & Blinds Dr for bespoke window treatments.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/homepage.css">
+</head>
+
+<body>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="header header--transparent" id="main-header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        Curtains & Blinds Dr
+      </a>
+      <nav class="header__nav" id="main-nav">
+        <a href="collection.html">Collections</a>
+        <a href="collection.html?cat=curtains">Curtains</a>
+        <a href="collection.html?cat=blinds">Blinds</a>
+        <a href="#">Consultation</a>
+        <a href="#">About</a>
+      </nav>
+      <div class="header__actions">
+        <a href="#" class="header__search" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ MOBILE MENU ═══════════ -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="collection.html">Collections</a>
+    <a href="collection.html?cat=curtains">Curtains</a>
+    <a href="collection.html?cat=blinds">Blinds</a>
+    <a href="#">Consultation</a>
+    <a href="#">About</a>
+    <a href="#" class="btn btn--primary" style="margin-top: 1rem;">Book Consultation</a>
+  </div>
+
+  <main>
+    <!-- ═══════════ HERO TIMELAPSE ═══════════ -->
+    <section class="hero hero--slideshow" id="hero">
+      <div class="hero__slides" id="hero-slides">
+        <div class="hero__slide active">
+          <img src="images/hero_living_room_1772547341323.png" alt="Sheer curtains in luxury living room"
+            loading="eager">
+        </div>
+        <div class="hero__slide">
+          <img src="images/cat_blackout_curtains_1772547462309.png" alt="Blackout curtains in modern bedroom"
+            loading="eager">
+        </div>
+        <div class="hero__slide">
+          <img src="images/cat_roman_blinds_1772547492175.png" alt="Roman blinds in contemporary kitchen"
+            loading="eager">
+        </div>
+        <div class="hero__slide">
+          <img src="images/cat_roller_blinds_1772547588047.png" alt="Roller blinds in minimalist office"
+            loading="eager">
+        </div>
+        <div class="hero__slide">
+          <img src="images/cat_motorised_blinds_1772547668017.png" alt="Motorised blinds in luxury penthouse"
+            loading="eager">
+        </div>
+      </div>
+      <div class="hero__overlay"></div>
+
+      <!-- Slide indicators -->
+      <div class="hero__indicators" id="hero-indicators">
+        <button class="hero__indicator active" data-slide="0">
+          <span class="hero__indicator-label">Sheer Curtains</span>
+          <span class="hero__indicator-bar"><span class="hero__indicator-fill"></span></span>
+        </button>
+        <button class="hero__indicator" data-slide="1">
+          <span class="hero__indicator-label">Blackout Curtains</span>
+          <span class="hero__indicator-bar"><span class="hero__indicator-fill"></span></span>
+        </button>
+        <button class="hero__indicator" data-slide="2">
+          <span class="hero__indicator-label">Roman Blinds</span>
+          <span class="hero__indicator-bar"><span class="hero__indicator-fill"></span></span>
+        </button>
+        <button class="hero__indicator" data-slide="3">
+          <span class="hero__indicator-label">Roller Blinds</span>
+          <span class="hero__indicator-bar"><span class="hero__indicator-fill"></span></span>
+        </button>
+        <button class="hero__indicator" data-slide="4">
+          <span class="hero__indicator-label">Motorised Blinds</span>
+          <span class="hero__indicator-bar"><span class="hero__indicator-fill"></span></span>
+        </button>
+      </div>
+
+      <div class="hero__content fade-in">
+        <h1 class="hero__title">Custom Curtains &amp; Blinds, Tailored to Your Space</h1>
+        <p class="hero__subtitle">Bespoke window treatments crafted with premium fabrics, designed to transform your
+          home.</p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary btn--lg">Book Free Consultation</a>
+          <a href="collection.html" class="btn btn--white btn--lg">Explore Collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CATEGORY TILES ═══════════ -->
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p>Our Collections</p>
+          <h2>Find Your Perfect Style</h2>
+        </div>
+        <div class="categories-grid">
+          <a href="collection.html?cat=sheer" class="collection-tile fade-in">
+            <img src="images/cat_sheer_curtains_1772547416849.png" alt="Sheer Curtains" loading="lazy">
+            <div class="collection-tile__overlay">
+              <h3 class="collection-tile__title">Sheer Curtains</h3>
+              <span class="collection-tile__count">24 Products</span>
+            </div>
+          </a>
+          <a href="collection.html?cat=blackout" class="collection-tile fade-in">
+            <img src="images/cat_blackout_curtains_1772547462309.png" alt="Blackout Curtains" loading="lazy">
+            <div class="collection-tile__overlay">
+              <h3 class="collection-tile__title">Blackout Curtains</h3>
+              <span class="collection-tile__count">18 Products</span>
+            </div>
+          </a>
+          <a href="collection.html?cat=roman" class="collection-tile fade-in">
+            <img src="images/cat_roman_blinds_1772547492175.png" alt="Roman Blinds" loading="lazy">
+            <div class="collection-tile__overlay">
+              <h3 class="collection-tile__title">Roman Blinds</h3>
+              <span class="collection-tile__count">16 Products</span>
+            </div>
+          </a>
+          <a href="collection.html?cat=roller" class="collection-tile fade-in">
+            <img src="images/cat_roller_blinds_1772547588047.png" alt="Roller Blinds" loading="lazy">
+            <div class="collection-tile__overlay">
+              <h3 class="collection-tile__title">Roller Blinds</h3>
+              <span class="collection-tile__count">20 Products</span>
+            </div>
+          </a>
+          <a href="collection.html?cat=motorised" class="collection-tile fade-in">
+            <img src="images/cat_motorised_blinds_1772547668017.png" alt="Motorised Blinds" loading="lazy">
+            <div class="collection-tile__overlay">
+              <h3 class="collection-tile__title">Motorised Blinds</h3>
+              <span class="collection-tile__count">12 Products</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ EDITORIAL: Designed Around Your Home ═══════════ -->
+    <section class="section section--beige" id="editorial-1">
+      <div class="container">
+        <div class="editorial">
+          <div class="editorial__image fade-in-left">
+            <img src="images/editorial_home_1772547713128.png"
+              alt="Interior designer measuring windows for custom curtains" loading="lazy">
+          </div>
+          <div class="editorial__content fade-in-right">
+            <span class="editorial__label">Our Story</span>
+            <h2>Designed Around Your Home</h2>
+            <p>Every home is unique. Our expert designers visit your space to understand the light, the architecture,
+              and your lifestyle — ensuring every curtain and blind is crafted to perfection.</p>
+            <a href="#" class="btn btn--primary">Book Measurement Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ALTERNATING: Crafted for Light ═══════════ -->
+    <section class="section" id="editorial-2">
+      <div class="container">
+        <div class="editorial editorial--reverse">
+          <div class="editorial__image fade-in-right">
+            <img src="images/editorial_fabric_1772547739429.png" alt="Premium curtain fabrics in natural tones"
+              loading="lazy">
+          </div>
+          <div class="editorial__content fade-in-left">
+            <span class="editorial__label">Craftsmanship</span>
+            <h2>Crafted for Light, Privacy &amp; Comfort</h2>
+            <p>From delicate sheers that filter golden light to blackout curtains that cocoon you in darkness — every
+              fabric is hand-selected, every stitch considered.</p>
+            <a href="collection.html" class="btn btn--secondary">View Fabrics</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROCESS ═══════════ -->
+    <section class="section section--beige" id="process">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p>How It Works</p>
+          <h2>Our Process</h2>
+        </div>
+        <div class="process-steps">
+          <div class="process-step fade-in">
+            <div class="process-step__number">1</div>
+            <h4 class="process-step__title">Consultation</h4>
+            <p class="process-step__desc">Book a free in-home visit to discuss your vision, style and requirements.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">2</div>
+            <h4 class="process-step__title">Fabric Selection</h4>
+            <p class="process-step__desc">Explore our curated fabric library and choose the perfect material for your
+              space.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">3</div>
+            <h4 class="process-step__title">Custom Production</h4>
+            <p class="process-step__desc">Your order is handcrafted to exact measurements with premium materials.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">4</div>
+            <h4 class="process-step__title">Installation</h4>
+            <p class="process-step__desc">Professional fitting by our experienced team for a flawless finish.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ INSTAGRAM GRID ═══════════ -->
+    <section class="section instagram-section" id="instagram">
+      <div class="container">
+        <div class="instagram-header fade-in">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+          <span>Follow us <a href="#">@curtainsandblindsdr</a></span>
+        </div>
+      </div>
+      <div class="insta-grid">
+        <div class="insta-grid__item"><img src="images/insta_1_1772547765342.png" alt="Instagram post" loading="lazy">
+        </div>
+        <div class="insta-grid__item"><img src="images/insta_2_1772547793553.png" alt="Instagram post" loading="lazy">
+        </div>
+        <div class="insta-grid__item"><img src="images/insta_3_1772547872063.png" alt="Instagram post" loading="lazy">
+        </div>
+        <div class="insta-grid__item"><img src="images/insta_4_1772547901064.png" alt="Instagram post" loading="lazy">
+        </div>
+        <div class="insta-grid__item"><img src="images/insta_5_1772547967947.png" alt="Instagram post" loading="lazy">
+        </div>
+        <div class="insta-grid__item"><img src="images/insta_6_1772548397324.png" alt="Instagram post" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TESTIMONIAL ═══════════ -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="testimonial fade-in">
+          <div class="testimonial__quote-mark">&ldquo;</div>
+          <blockquote class="testimonial__quote">
+            The team transformed our living room completely. The sheer curtains let in the most beautiful soft light,
+            and the blackout blinds in the bedroom are a dream. Truly bespoke quality.
+          </blockquote>
+          <div class="testimonial__author">
+            <strong>Lerato Molefe</strong>
+            Johannesburg, South Africa
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FINAL CTA ═══════════ -->
+    <section class="section section--beige" id="cta">
+      <div class="container">
+        <div class="cta-section fade-in">
+          <h2>Let's Transform Your Windows</h2>
+          <p>Book a free consultation and let our experts design the perfect window treatment for your home.</p>
+          <a href="#" class="btn btn--primary btn--lg">Book Your Free Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            Curtains & Blinds Dr
+            <span class="footer__brand-sub">Bespoke Window Treatments</span>
+          </div>
+          <p class="footer__desc">Luxury custom curtains and blinds tailored to your home. Serving Johannesburg, Cape
+            Town, Durban and surrounding areas with premium fabrics and expert installation.</p>
+          <div class="footer__newsletter">
+            <h5 class="footer__heading" style="margin-top: 1.5rem;">Newsletter</h5>
+            <div class="footer__newsletter-input">
+              <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+              <button type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer__heading">Shop</h5>
+          <nav class="footer__links">
+            <a href="collection.html">All Collections</a>
+            <a href="collection.html?cat=sheer">Sheer Curtains</a>
+            <a href="collection.html?cat=blackout">Blackout Curtains</a>
+            <a href="collection.html?cat=roman">Roman Blinds</a>
+            <a href="collection.html?cat=roller">Roller Blinds</a>
+            <a href="collection.html?cat=motorised">Motorised Blinds</a>
+          </nav>
+        </div>
+        <div>
+          <h5 class="footer__heading">Company</h5>
+          <nav class="footer__links">
+            <a href="#">Our Story</a>
+            <a href="#">Consultation</a>
+            <a href="#">Reviews</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h5 class="footer__heading">Support</h5>
+          <nav class="footer__links">
+            <a href="#">FAQs</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Returns</a>
+            <a href="#">Care Guide</a>
+            <a href="#">Privacy Policy</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Curtains & Blinds Dr. All rights reserved.</span>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 12a4 4 0 1 1 8 0c0 4-3 6-3 6" />
+              <line x1="12" y1="12" x2="12" y2="21" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
