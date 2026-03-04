@@ -62,7 +62,7 @@ function initMobileMenu() {
   });
 
   // Close on menu link click
-  menu.querySelectorAll('a').forEach(link => {
+  menu.querySelectorAll('a, button:not(.menu-toggle)').forEach(link => {
     link.addEventListener('click', () => {
       toggle.classList.remove('active');
       menu.classList.remove('active');

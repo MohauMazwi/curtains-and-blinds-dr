@@ -26,7 +26,15 @@
     <!-- ═══════════ HEADER ═══════════ -->
     <header class="header scrolled" id="main-header">
         <div class="header__inner">
-            <a href="index.html" class="header__logo">Curtains & Blinds Dr</a>
+            <a href="index.html" class="header__logo" aria-label="Curtains & Blinds Dr — Home">
+                <svg class="header__logo-svg" viewBox="0 0 280 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="28" font-family="'Playfair Display', Georgia, serif" font-weight="600" font-size="26"
+                        fill="currentColor" letter-spacing="0.5">Curtains &amp; Blinds</text>
+                    <text x="0" y="42" font-family="'Inter', 'Helvetica Neue', sans-serif" font-weight="400"
+                        font-size="10" fill="currentColor" letter-spacing="2" opacity="0.6">DR · BESPOKE WINDOW
+                        TREATMENTS</text>
+                </svg>
+            </a>
             <nav class="header__nav" id="main-nav">
                 <a href="collection.html">Collections</a>
                 <a href="collection.html?cat=curtains">Curtains</a>
@@ -59,11 +67,42 @@
 
     <!-- ═══════════ MOBILE MENU ═══════════ -->
     <div class="mobile-menu" id="mobile-menu">
-        <a href="collection.html">Collections</a>
-        <a href="collection.html?cat=curtains">Curtains</a>
-        <a href="collection.html?cat=blinds">Blinds</a>
-        <a href="#">Consultation</a>
-        <a href="#">About</a>
+        <div class="mobile-menu__inner">
+            <nav class="mobile-menu__nav">
+                <a href="collection.html" class="mobile-menu__link" style="--i:0">Collections</a>
+                <a href="collection.html?cat=curtains" class="mobile-menu__link" style="--i:1">Curtains</a>
+                <a href="collection.html?cat=blinds" class="mobile-menu__link" style="--i:2">Blinds</a>
+                <a href="#" class="mobile-menu__link" style="--i:3">Consultation</a>
+                <a href="#" class="mobile-menu__link" style="--i:4">About</a>
+            </nav>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__secondary">
+                <a href="#">FAQs</a>
+                <a href="#">Care Guide</a>
+                <a href="#">Contact</a>
+            </div>
+            <a href="#" class="btn btn--primary btn--full mobile-menu__cta">Book Free Consultation</a>
+            <div class="mobile-menu__footer">
+                <div class="mobile-menu__social">
+                    <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg></a>
+                    <a href="#" aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M8 12a4 4 0 1 1 8 0c0 4-3 6-3 6" />
+                            <line x1="12" y1="12" x2="12" y2="21" />
+                        </svg></a>
+                    <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg></a>
+                </div>
+                <span class="mobile-menu__tagline">Bespoke Window Treatments · South Africa</span>
+            </div>
+        </div>
     </div>
 
     <main>
