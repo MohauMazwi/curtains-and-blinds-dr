@@ -10,6 +10,16 @@
     padding: 0 var(--space-lg);
 }
 
+/* Ensure content stacks above interactive wave canvas */
+[data-waves]>.container {
+    position: relative;
+    z-index: 1;
+}
+
+[data-waves] {
+    overflow: hidden;
+}
+
 .container--narrow {
     max-width: var(--container-narrow);
 }
