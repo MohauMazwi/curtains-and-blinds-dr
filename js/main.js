@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   MAIN.JS — Curtains & Blinds Dr interactions
+   MAIN.JS — Fab Curtains And Blinds S.A. interactions
    ══════════════════════════════════════════════════════════════ */
 
 document.addEventListener('DOMContentLoaded', () => {
